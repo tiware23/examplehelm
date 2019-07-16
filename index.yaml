@@ -3,7 +3,32 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.2.2
-    created: "2019-07-16T11:31:05.571267721Z"
+    created: "2019-07-16T12:21:55.11647772Z"
+    description: This is one that I put in no pvc
+    digest: 49ee177e8da62c80078ab4a4a179871862d05c1fdf5fc5094db58be878fdc488
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-5.14.0.tgz
+    version: 5.14.0
+  - apiVersion: v1
+    appVersion: 5.2.2
+    created: "2019-07-16T12:21:55.114733869Z"
     description: This is one that I put in
     digest: 60c2314cad947c5fb0a90b79031e929941784a2300af3bd2b217f27a8c241ffb
     engine: gotpl
@@ -26,4 +51,4 @@ entries:
     urls:
     - wordpress-5.13.1.tgz
     version: 5.13.1
-generated: "2019-07-16T11:31:05.568565041Z"
+generated: "2019-07-16T12:21:55.111799385Z"
